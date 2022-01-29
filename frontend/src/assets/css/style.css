@@ -1,0 +1,43 @@
+/* importando fonte do google fonts, fonte: Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+/* definindo cores da aplicação */
+:root {
+    --color-primary: #FF8400;
+    
+}
+
+/* elementos principais */
+html, body {
+
+    /* altura 100% */
+    height: 100%;
+
+
+    font-family: "Ubuntu", sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+/* estilo de temas basico do bootstrap */
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
